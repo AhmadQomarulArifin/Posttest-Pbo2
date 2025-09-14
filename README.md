@@ -214,7 +214,6 @@ tampilan menu ke 4 jika data yang mau di hapus tidak ada dalam data
 
 
 
-<img width="350" height="218" alt="image" src="https://github.com/user-attachments/assets/ab4fb259-c356-451e-a0eb-30840f8a60a1" />
 
 
 
