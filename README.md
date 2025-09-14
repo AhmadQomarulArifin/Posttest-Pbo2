@@ -40,11 +40,11 @@ public Hewan(String namaPemilik, String noHP, String namaHewan, String jenisHewa
 
 ### Struktur packages
 src/com/mycompany/klinikhewan/
- ├── main/
- │    └── Main.java       (menu utama)
- ├── model/
- │    └── Hewan.java      (data hewan)
- └── service/
+  main
+     └── Main.java (menu utama)
+  model
+     └── Hewan.java (data hewan)
+  service
       └── HewanService.java (logika CRUD)
 
 ## MVC
