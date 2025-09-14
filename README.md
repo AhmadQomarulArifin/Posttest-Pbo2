@@ -40,6 +40,13 @@ public Hewan(String namaPemilik, String noHP, String namaHewan, String jenisHewa
 
 ### Struktur packages
 src/com/mycompany/klinikhewan/
+
+
+
+
+
+
+
   main
 
 
