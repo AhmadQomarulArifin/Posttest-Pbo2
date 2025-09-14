@@ -8,22 +8,22 @@ Program ini adalah aplikasi manajemen data hewan peliharaan di klinik yang dikem
 
 
 ###  terdapat 3 Class
-- **Main** (`com.mycompany.klinikhewan.main`) → berisi menu utama.  
-- **HewanService** (`com.mycompany.klinikhewan.service`) → berisi logika CRUD dan search.  
-- **Hewan** (`com.mycompany.klinikhewan.model`) → berisi struktur data hewan.  
+- Main (com.mycompany.klinikhewan.main) → berisi menu utama.  
+- HewanService (com.mycompany.klinikhewan.service) → berisi logika CRUD dan search.  
+- Hewan (com.mycompany.klinikhewan.model) → berisi struktur data hewan.  
 
 ###  terdapat 6 Properties
-Class `Hewan` memiliki **6 properti**:  
-- `namaPemilik`  
-- `noHP`  
-- `namaHewan`  
-- `jenisHewan`  
-- `umurHewan`  
-- `keluhan`  
+Class Hewan memiliki 6 properti:  
+- namaPemilik  
+- noHP 
+- namaHewan  
+- jenisHewan  
+- umurHewan  
+- keluhan
 
 ### Menerapkan Constructor
-Class `Hewan` memiliki constructor untuk inisialisasi data:
-```java
+Class Hewan memiliki constructor untuk inisialisasi data:
+
 public Hewan(String namaPemilik, String noHP, String namaHewan, String jenisHewan, int umurHewan, String keluhan) {
     this.namaPemilik = namaPemilik;
     this.noHP = noHP;
@@ -47,16 +47,16 @@ src/com/mycompany/klinikhewan/
  └── service/
       └── HewanService.java (logika CRUD)
 
-### MVC
+## MVC
 - Model → Class Hewan yang merepresentasikan struktur data dengan properti, constructor, getter, dan setter.
 - View → Class Main yang menangani tampilan menu utama pengguna dan input/output.
 - Controller (Service) → Class HewanService yang menangani logika bisnis dan operasi CRUD.
 
-### Validasi Input
+## Validasi Input
 Nomor HP tidak boleh kosong.
 Umur hewan harus lebih dari 0.
 
-### Fitur Search
+## Fitur Search
 Method cariHewan() memungkinkan pencarian data berdasarkan nama hewan (case-insensitive).
 
 # Alur Program
